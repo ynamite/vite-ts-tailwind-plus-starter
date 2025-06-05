@@ -1,1 +1,3 @@
-import './style.css'
+import './css/style.css'
+
+console.log(import.meta.env)

@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@import './webfonts';
+@theme {
+  --font-sans: 'Roboto', sans-serif;
+}
+@utility drop-shadow-4xl {
+  --tw-drop-shadow-size: drop-shadow(
+    0 0 100px var(--tw-drop-shadow-color, rgb(0 0 0 / 0.15))
+  );
+  --tw-drop-shadow: drop-shadow(
+    var(--drop-shadow-2xl) /* 0 25px 25px rgb(0 0 0 / 0.15) */
+  );
+  filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,)
+    var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,)
+    var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+}

@@ -1,0 +1,36 @@
+{
+  "name": "vite-ts-tailwind-plus-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/eslint-parser": "^7.26.8",
+    "autoprefixer": "^10.4.20",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-prettier": "^5.2.3",
+    "postcss": "^8.5.3",
+    "postcss-import": "^16.1.0",
+    "postcss-nesting": "^13.0.1",
+    "prettier": "^3.5.2",
+    "prettier-plugin-css-order": "^2.1.2",
+    "prettier-plugin-organize-attributes": "^1.0.0",
+    "prettier-plugin-style-order": "^0.2.2",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard": "^38.0.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}
